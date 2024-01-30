@@ -1,0 +1,19 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "start:dev": "nodemon src/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "nanoid": "3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
