@@ -31,8 +31,9 @@ const invokeAction = async ({
 program
     .option("-a, action, <type>")
     .option("-i, id, <type>")
-    .option("-ad, add, <type>")
-    .option("-rm, remove, <type>");
+    .option("-n, name, <type>")
+    .option("-e, email, <type>")
+    .option("-p, phone, <type>");
 
 program.parse();
 const options = program.opts();
